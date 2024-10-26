@@ -4,12 +4,6 @@
     box-sizing; border-box;
 }
 
-h2{
-    font-family: "Oswald", sans-serif;
-    font-size: large;
-    font-style: normal;
-    font-weight: 400;
-}
 @media only screen and (min-width: 768px) {/* tablets and desktop */
     
 body{
@@ -100,10 +94,204 @@ header > h1{
     font-weight: 400;
     font-style: normal;
 }
+h2{
+    font-family: "Oswald", sans-serif;
+    font-size: large;
+    font-style: normal;
+    font-weight: 400;
+}
 }
 @media only screen and (max-width: 767px) {
     /* phones */
+    body{
+
+        background: url("background.png") no-repeat fixed top right;
+        background-size: cover;
+    
+    
+    }
+    #container {
+
+        width: 800px;
+        margin: 0 auto;
+    
+    }
+    
+    .left{
+    
+        width: 300px;
+        height: 150px;
+        background-color: lightskyblue;
+        border-radius: 25px;
+        float: left;
+        margin: 10px 10px 10px 15px;
+        padding: 30px 30px 30px 30px;
+        border: thick blue solid;
+    
+    
+    
+    
+    }
+    
+    .right{
+    
+        width: 300px;
+        height: 150px;
+        background-color: lightskyblue;
+        border-radius: 25px;
+        float: right;
+        margin: 10px 15px 10px 10px;
+        padding: 30px 30px 30px 30px;
+        border: thick blue solid;
+    
+    }
+    
+    footer{
+    
+        background-color:#004aad;
+        clear: both;
+    
+    }
+    header > h1{
+        text-align: center;
+        color:black;
+    
+    
+    
+    }
+    
+    #container article{
+        background-color: lightskyblue;
+    }
+    .left a:link{
+        color:#004aad;
+        font-size: 20px;
+        text-decoration: none;
+        font-family: "Teko", sans-serif;
+    }
+    .left a:hover{
+        font-size: 25px;
+    }
+    .right a:link{
+        color:#004aad;
+        font-size: 20px;
+        text-decoration: none;
+        font-family: "Teko", sans-serif;
+    }
+    .right a:hover{
+        font-size: 25px;
+    }
+    .indie-oswald-regular{
+      font-family: "Oswald", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    .footer a:link{
+        font-family: "Teko", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    h2{
+        font-family: "Oswald", sans-serif;
+        font-size: large;
+        font-style: normal;
+        font-weight: 400;
+    }
 }
 @media only screen and (max-width: 767px) and (orientation: portrait) {
     /* portrait phones */
+    body{
+
+        background: url("background.png") no-repeat fixed top right;
+        background-size: cover;
+    
+    
+    }
+    #container {
+
+        width: 800px;
+        margin: 0 auto;
+    
+    }
+    
+    .left{
+    
+        width: 300px;
+        height: 150px;
+        background-color: lightskyblue;
+        border-radius: 25px;
+        float: left;
+        margin: 10px 10px 10px 15px;
+        padding: 30px 30px 30px 30px;
+        border: thick blue solid;
+    
+    
+    
+    
+    }
+    
+    .right{
+    
+        width: 300px;
+        height: 150px;
+        background-color: lightskyblue;
+        border-radius: 25px;
+        float: right;
+        margin: 10px 15px 10px 10px;
+        padding: 30px 30px 30px 30px;
+        border: thick blue solid;
+    
+    }
+    
+    footer{
+    
+        background-color:#004aad;
+        clear: both;
+    
+    }
+    header > h1{
+        text-align: center;
+        color:black;
+    
+    
+    
+    }
+    
+    #container article{
+        background-color: lightskyblue;
+    }
+    .left a:link{
+        color:#004aad;
+        font-size: 20px;
+        text-decoration: none;
+        font-family: "Teko", sans-serif;
+    }
+    .left a:hover{
+        font-size: 25px;
+    }
+    .right a:link{
+        color:#004aad;
+        font-size: 20px;
+        text-decoration: none;
+        font-family: "Teko", sans-serif;
+    }
+    .right a:hover{
+        font-size: 25px;
+    }
+    .indie-oswald-regular{
+      font-family: "Oswald", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    .footer a:link{
+        font-family: "Teko", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    h2{
+        font-family: "Oswald", sans-serif;
+        font-size: large;
+        font-style: normal;
+        font-weight: 400;
+    }
 }
