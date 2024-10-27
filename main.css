@@ -296,21 +296,21 @@ h2{
     }
 }
 @media only screen and (max-width: 200px) {
-    /* Extra small devices (phones, 600px and down) */
+    /* Extra small devices (phones, 200px and down) */
 }
 
 @media only screen and (min-width: 200px) {
-    /* Small devices (portrait tablets and large phones, 600px and up) */
+    /* Small devices (portrait tablets and large phones, 200px and up) */
 }
 
 @media only screen and (min-width: 230px) {
-    /* Medium devices (landscape tablets, 768px and up) */
+    /* Medium devices (landscape tablets, 230px and up) */
 }
 
 @media only screen and (min-width: 250px) {
-    /* Large devices (laptops/desktops, 992px and up) */
+    /* Large devices (laptops/desktops, 250px and up) */
 }
 
 @media only screen and (min-width: 290px) {
-    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    /* Extra large devices (large laptops and desktops, 290px and up) */
 }
