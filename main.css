@@ -3,23 +3,22 @@
 *{
     box-sizing; border-box;
 }
-
     #container {
-
         width: 800px;
         margin: 0 auto;
-    
     }
-    
+    .flex-container{
+        display: flex;
+    }
+
     .left{
-    
         flex-grow: 1;
         width: 300px;
-        height: 150px;
+        height: 250px;
         background-color: lightskyblue;
         border-radius: 25px;
         float: left;
-        margin: 10px 10px 10px 15px;
+        margin: 20px 10px 10px 20px;
         padding: 30px 30px 30px 30px;
         border: thick blue solid;
     
