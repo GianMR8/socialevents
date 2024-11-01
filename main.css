@@ -3,51 +3,85 @@
 *{
     box-sizing; border-box;
 }
-    #container {
-        margin: 0 auto;
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #004aad;
+        background: url("background.png") no-repeat fixed top right;
+        background-size: cover;
+      }
+
+      body{
+        background-color: #004aad;
+        background: url("background.png") no-repeat fixed top right;
+        background-size: cover;
+    }
+    
+    @media only screen and (min-width: 700px) {/* tablets and desktop */
+        #container{
+            width: 700px;
+            margin: 0 auto;
+        }
+             
+    h1 span::before{
+        content: "tablet device";
     }
 
-    .flex-container{
-        display: flex;
-    }
     .left{
         flex-grow: 1;
+        flex-wrap: wrap;
         width: 300px;
         height: 250px;
         background-color: lightskyblue;
         border-radius: 25px;
         float: left;
-        margin: 20px 10px 10px 20px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
         padding: 30px 30px 30px 30px;
         border: thick blue solid;
     
     }
-    body{
-
-        background: url("background.png") no-repeat fixed top right;
-        background-size: cover;
-    }
-    @media only screen and (min-width: 768px) {/* tablets and desktop */
-    
-    
+}
     .right{
     
         flex-grow: 1;
+        flex-wrap: wrap;
         width: 300px;
         height: 250px;
         background-color: lightskyblue;
         border-radius: 25px;
         float: left;
-        margin: 10px 15px 10px 10px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
         padding: 30px 30px 30px 30px;
         border: thick blue solid;
     
     }   
-
-#container{
-    width: 768px;
-    margin: 0 auto;
-}
+    nav li{
+        float: right;
+        list-style-type: none;
+        background-color: #004aad;
+        padding: 0px 20px 0px 0px;
+        margin: 0px;
+    }
+    nav ul{
+        list-style-type: none;
+        overflow: hidden;
+        margin: none;
+        padding: 20px 20px 20px 20px;
+        background-color: #004aad;
+    }
+    nav{
+        clear: both;
+        height: 50px;
+        background-color: #004aad;
+    }
+    nav li a:hover {
+        height: 50px;
+        background-color: #004aad;
+    }
 footer{
 
     background-color:#004aad;
@@ -57,9 +91,7 @@ footer{
 header > h1{
     text-align: center;
     color:black;
-
-
-
+    font-size: xx-large;
 }
 
 
@@ -97,43 +129,32 @@ h2{
     font-style: normal;
     font-weight: 400;
 }
-    }
-@media only screen and (max-width: 767px) {
-    /* phones */
-        .flex-container{
-            display: flex;
-            flex-direction: column;
-}
-
-}
-@media only screen and (max-width: 767px) and (orientation: portrait) {
-    /* portrait phones */
-}
-body{
-
-    background: url("background.png") no-repeat fixed top right;
-    background-size: cover;
-
-
-}
-#container{
-    width: 800px;
-    margin: 0 auto;
-}
     
-    .left{
+@media only screen and (min-width: 350px) {
+    /* phones */
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        background-color: #004aad;
+      }
+
+      h1 span::before {
+        content: "phone-device";
+      }
+      .left{
         
         flex-grow: 1;
+        flex-wrap: wrap;
         width: 300px;
         height: 150px;
         background-color: lightskyblue;
         border-radius: 25px;
         float: left;
-        margin: 10px 10px 10px 15px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
         padding: 30px 30px 30px 30px;
         border: thick blue solid;
-    
-    
     
     
     }
@@ -141,65 +162,200 @@ body{
     .right{
         
         flex-grow: 1;
+        flex-wrap: wrap;
         width: 300px;
         height: 150px;
         background-color: lightskyblue;
         border-radius: 25px;
         float: left;
-        margin: 10px 15px 10px 10px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
         padding: 30px 30px 30px 30px;
         border: thick blue solid;
     
     }
-    
-    footer{
-    
-        background-color:#004aad;
+    nav li{
+        float: right;
+        list-style-type: none;
+        background-color: #004aad;
+        padding: 0px 20px 0px 0px;
+        margin: 0px;
+    }
+    nav ul{
+        list-style-type: none;
+        overflow: hidden;
+        margin: none;
+        padding: 20px 20px 20px 20px;
+        background-color: #004aad;
+    }
+    nav{
         clear: both;
-    
+        height: 50px;
+        background-color: #004aad;
     }
-    header > h1{
-        text-align: center;
-        color:black;
-    
-    
-    
+    nav li a:hover {
+        height: 50px;
+        background-color: #004aad;
     }
-    
-    #container article{
+footer{
+
+    background-color:#004aad;
+    clear: both;
+
+}
+header > h1{
+    text-align: center;
+    color:black;
+    font-size: xx-large;
+}
+
+
+.left a:link{
+    color:#004aad;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Teko", sans-serif;
+}
+.left a:hover{
+    font-size: 25px;
+}
+.right a:link{
+    color:#004aad;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Teko", sans-serif;
+}
+.right a:hover{
+    font-size: 25px;
+}
+.indie-oswald-regular{
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.footer a:link{
+    font-family: "Teko", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h2{
+    font-family: "Oswald", sans-serif;
+    font-size: large;
+    font-style: normal;
+    font-weight: 400;
+}
+}
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    /* portrait phones */
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        background-color: #004aad;
+      }
+}
+    .left{
+        
+        flex-grow: 1;
+        flex-wrap: wrap;
+        width: 300px;
+        height: 150px;
         background-color: lightskyblue;
+        border-radius: 25px;
+        float: left;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding: 30px 30px 30px 30px;
+        border: thick blue solid;
+    
+    
     }
-    .left a:link{
-        color:#004aad;
-        font-size: 20px;
-        text-decoration: none;
-        font-family: "Teko", sans-serif;
+    
+    .right{
+        
+        flex-grow: 1;
+        flex-wrap: wrap;
+        width: 300px;
+        height: 150px;
+        background-color: lightskyblue;
+        border-radius: 25px;
+        float: left;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding: 30px 30px 30px 30px;
+        border: thick blue solid;
+    
     }
-    .left a:hover{
-        font-size: 25px;
+    nav li{
+        float: right;
+        list-style-type: none;
+        background-color: #004aad;
+        padding: 0px 20px 0px 0px;
+        margin: 0px;
     }
-    .right a:link{
-        color:#004aad;
-        font-size: 20px;
-        text-decoration: none;
-        font-family: "Teko", sans-serif;
+    nav ul{
+        list-style-type: none;
+        overflow: hidden;
+        margin: none;
+        padding: 20px 20px 20px 20px;
+        background-color: #004aad;
     }
-    .right a:hover{
-        font-size: 25px;
+    nav{
+        clear: both;
+        height: 50px;
+        background-color: #004aad;
     }
-    .indie-oswald-regular{
-      font-family: "Oswald", sans-serif;
-      font-weight: 400;
-      font-style: normal;
+    nav li a:hover {
+        height: 50px;
+        background-color: #004aad;
     }
-    .footer a:link{
-        font-family: "Teko", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-    h2{
-        font-family: "Oswald", sans-serif;
-        font-size: large;
-        font-style: normal;
-        font-weight: 400;
-    }
+footer{
+
+    background-color:#004aad;
+    clear: both;
+
+}
+header > h1{
+    text-align: center;
+    color:black;
+    font-size: xx-large;
+}
+
+
+.left a:link{
+    color:#004aad;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Teko", sans-serif;
+}
+.left a:hover{
+    font-size: 25px;
+}
+.right a:link{
+    color:#004aad;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Teko", sans-serif;
+}
+.right a:hover{
+    font-size: 25px;
+}
+.indie-oswald-regular{
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.footer a:link{
+    font-family: "Teko", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h2{
+    font-family: "Oswald", sans-serif;
+    font-size: large;
+    font-style: normal;
+    font-weight: 400;
+}
+    
