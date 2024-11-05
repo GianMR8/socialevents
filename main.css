@@ -9,14 +9,18 @@
         background-color: #004aad;
         background: url("background.png") no-repeat fixed top right;
         background-size: cover;
-      }
+        flex-direction: row;
+    }
 
       body{
         background-color: #004aad;
         background: url("background.png") no-repeat fixed top right;
         background-size: cover;
     }
-    
+    #container{
+        margin: 0 auto;
+        width: 767px;  
+    }
     @media only screen and (min-width: 700px) {/* tablets and desktop */
         #container{
             width: 700px;
@@ -30,11 +34,10 @@
     .left{
         flex-grow: 1;
         flex-wrap: wrap;
-        width: 300px;
+        width: 150%;
         height: 250px;
         background-color: lightskyblue;
         border-radius: 25px;
-        float: left;
         justify-content: center;
         align-items: center;
         margin: auto;
@@ -47,11 +50,10 @@
     
         flex-grow: 1;
         flex-wrap: wrap;
-        width: 300px;
+        width: 150%;
         height: 250px;
         background-color: lightskyblue;
         border-radius: 25px;
-        float: left;
         justify-content: center;
         align-items: center;
         margin: auto;
@@ -60,7 +62,6 @@
     
     }   
     nav li{
-        float: right;
         list-style-type: none;
         background-color: #004aad;
         padding: 0px 20px 0px 0px;
@@ -145,11 +146,10 @@ h2{
         
         flex-grow: 1;
         flex-wrap: wrap;
-        width: 300px;
+        width: 90%;
         height: 150px;
         background-color: lightskyblue;
         border-radius: 25px;
-        float: left;
         justify-content: center;
         align-items: center;
         margin: auto;
@@ -163,11 +163,10 @@ h2{
         
         flex-grow: 1;
         flex-wrap: wrap;
-        width: 300px;
+        width: 90%;
         height: 150px;
         background-color: lightskyblue;
         border-radius: 25px;
-        float: left;
         justify-content: center;
         align-items: center;
         margin: auto;
@@ -262,7 +261,6 @@ h2{
         height: 150px;
         background-color: lightskyblue;
         border-radius: 25px;
-        float: left;
         justify-content: center;
         align-items: center;
         margin: auto;
@@ -280,7 +278,6 @@ h2{
         height: 150px;
         background-color: lightskyblue;
         border-radius: 25px;
-        float: left;
         justify-content: center;
         align-items: center;
         margin: auto;
