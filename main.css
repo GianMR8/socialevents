@@ -12,7 +12,7 @@
         flex-direction: row;
     }
 
-      body{
+    body{
         background-color: #004aad;
         background: url("background.png") no-repeat fixed top right;
         background-size: cover;
