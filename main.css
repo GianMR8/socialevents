@@ -5,8 +5,6 @@
 }
     .flex-container {
         display: flex;
-        flex-wrap: wrap;
-        background-color: #004aad;
         background: url("background.png") no-repeat fixed top right;
         background-size: cover;
         flex-direction: row;
@@ -135,7 +133,6 @@ h2{
     /* phones */
     .flex-container {
         display: flex;
-        flex-direction: column;
         background-color: #004aad;
       }
 
