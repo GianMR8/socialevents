@@ -336,6 +336,7 @@ header > h1{
 .right a:hover{
     font-size: 25px;
 }
+
 .indie-oswald-regular{
   font-family: "Oswald", sans-serif;
   font-weight: 400;
@@ -351,5 +352,40 @@ h2{
     font-size: large;
     font-style: normal;
     font-weight: 400;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-box{
+    padding: 10px;
+    border-radius: 5px;
+    background: skyblue;
+    box-shadow: 10px, 10px, 15px blue, -10px, -10px, 15 blue;
+}
+.form-box input{
+    font-size: 15px;
+    color: blue;
+    padding: 15px, 10px;
+    border: blue;
+    outline: blue;
+    background: white;
+}
+.form-box button{
+    color: blue;
+    padding: 15px, 20px;
+    font-size: 15px;
+    border: blue;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+    transition: .3s;
 }
     
