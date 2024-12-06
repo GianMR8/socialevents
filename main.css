@@ -5,13 +5,15 @@
 }
     .flex-container {
         display: flex;
+        background: url("processed-C993805F-A62C-4A78-A2D1-411B57CD3745.jpeg") no-repeat fixed top right;
         background-size: cover;
         flex-direction: row;
     }
 
     body{
-        background-color: skyblue;
+        background: url("processed-C993805F-A62C-4A78-A2D1-411B57CD3745.jpeg");
         background-size: cover;
+        opacity: 80%;
     }
     #container{
         margin: 0 auto;
