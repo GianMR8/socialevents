@@ -34,13 +34,11 @@
         flex-wrap: wrap;
         width: 150%;
         height: 250px;
-        background-color: lightskyblue;
         border-radius: 25px;
         justify-content: center;
         align-items: center;
         margin: auto;
         padding: 30px 30px 30px 30px;
-        border: thick blue solid;
     
     }
 }
@@ -50,18 +48,15 @@
         flex-wrap: wrap;
         width: 150%;
         height: 250px;
-        background-color: lightskyblue;
         border-radius: 25px;
         justify-content: center;
         align-items: center;
         margin: auto;
         padding: 30px 30px 30px 30px;
-        border: thick blue solid;
     
     }   
     nav li{
         list-style-type: none;
-        background-color: skyblue;
         padding: 0px 20px 0px 0px;
         margin: 0px;
     }
@@ -70,20 +65,15 @@
         overflow: hidden;
         margin: none;
         padding: 20px 20px 20px 20px;
-        background-color: skyblue;
     }
     nav{
         clear: both;
         height: 50px;
-        background-color: skyblue;
     }
     nav li a:hover {
         height: 50px;
-        background-color: skyblue;
     }
 footer{
-
-    background-color:skyblue;
     clear: both;
 
 }
@@ -104,7 +94,6 @@ header > h1{
     font-size: 25px;
 }
 .right a:link{
-    color:skyblue;
     font-size: 20px;
     text-decoration: none;
     font-family: "Teko", sans-serif;
@@ -133,7 +122,6 @@ h2{
     /* phones */
     .flex-container {
         display: flex;
-        background-color: skyblue;
       }
 
       h1 span::before {
@@ -145,13 +133,11 @@ h2{
         flex-wrap: wrap;
         width: 90%;
         height: 150px;
-        background-color: lightskyblue;
         border-radius: 25px;
         justify-content: center;
         align-items: center;
         margin: auto;
         padding: 30px 30px 30px 30px;
-        border: thick blue solid;
     
     
     }
@@ -162,19 +148,16 @@ h2{
         flex-wrap: wrap;
         width: 90%;
         height: 150px;
-        background-color: lightskyblue;
         border-radius: 25px;
         justify-content: center;
         align-items: center;
         margin: auto;
         padding: 30px 30px 30px 30px;
-        border: thick blue solid;
     
     }
     nav li{
         float: right;
         list-style-type: none;
-        background-color: skyblue;
         padding: 0px 20px 0px 0px;
         margin: 0px;
     }
@@ -183,20 +166,16 @@ h2{
         overflow: hidden;
         margin: none;
         padding: 20px 20px 20px 20px;
-        background-color: skyblue;
     }
     nav{
         clear: both;
         height: 50px;
-        background-color: skyblue;
     }
     nav li a:hover {
         height: 50px;
-        background-color: skyblue;
     }
 footer{
 
-    background-color:skyblue;
     clear: both;
 
 }
@@ -208,7 +187,6 @@ header > h1{
 
 
 .left a:link{
-    color:skyblue;
     font-size: 20px;
     text-decoration: none;
     font-family: "Teko", sans-serif;
@@ -217,7 +195,6 @@ header > h1{
     font-size: 25px;
 }
 .right a:link{
-    color:skyblue;
     font-size: 20px;
     text-decoration: none;
     font-family: "Teko", sans-serif;
@@ -247,7 +224,6 @@ h2{
     .flex-container {
         display: flex;
         flex-direction: column;
-        background-color: skyblue;
       }
 }
     .left{
@@ -262,7 +238,6 @@ h2{
         align-items: center;
         margin: auto;
         padding: 30px 30px 30px 30px;
-        border: thick blue solid;
     
     
     }
@@ -279,13 +254,11 @@ h2{
         align-items: center;
         margin: auto;
         padding: 30px 30px 30px 30px;
-        border: thick blue solid;
     
     }
     nav li{
         float: right;
         list-style-type: none;
-        background-color: skyblue;
         padding: 0px 20px 0px 0px;
         margin: 0px;
     }
@@ -294,20 +267,15 @@ h2{
         overflow: hidden;
         margin: none;
         padding: 20px 20px 20px 20px;
-        background-color: skyblue;
     }
     nav{
         clear: both;
         height: 50px;
-        background-color: skyblue;
     }
     nav li a:hover {
         height: 50px;
-        background-color: skyblue;
     }
 footer{
-
-    background-color:skyblue;
     clear: both;
 
 }
