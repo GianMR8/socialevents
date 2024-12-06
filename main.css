@@ -5,13 +5,13 @@
 }
     .flex-container {
         display: flex;
-        background: url("processed-C993805F-A62C-4A78-A2D1-411B57CD3745.jpeg") no-repeat fixed top right;
+        background: url("processed-75298E44-D292-4478-8E87-03B73E9A7105.jpeg") no-repeat fixed top right;
         background-size: cover;
         flex-direction: row;
     }
 
     body{
-        background: url("processed-C993805F-A62C-4A78-A2D1-411B57CD3745.jpeg");
+        background: url("processed-75298E44-D292-4478-8E87-03B73E9A7105.jpeg");
         background-size: cover;
         opacity: 80%;
     }
