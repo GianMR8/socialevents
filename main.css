@@ -29,51 +29,8 @@
     h1 span::before{
         content: "tablet device";
     }
-
-    .left{
-        flex-grow: 1;
-        flex-wrap: wrap;
-        width: 150%;
-        height: 250px;
-        border-radius: 25px;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-        padding: 30px 30px 30px 30px;
-    
-    }
 }
-    .right{
-    
-        flex-grow: 1;
-        flex-wrap: wrap;
-        width: 150%;
-        height: 250px;
-        border-radius: 25px;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-        padding: 30px 30px 30px 30px;
-    
-    }   
-    nav li{
-        list-style-type: none;
-        padding: 0px 20px 0px 0px;
-        margin: 0px;
-    }
-    nav ul{
-        list-style-type: none;
-        overflow: hidden;
-        margin: none;
-        padding: 20px 20px 20px 20px;
-    }
-    nav{
-        clear: both;
-        height: 50px;
-    }
-    nav li a:hover {
-        height: 50px;
-    }
+
 footer{
     clear: both;
 
@@ -85,23 +42,6 @@ header > h1{
 }
 
 
-.left a:link{
-    color:skyblue;
-    font-size: 20px;
-    text-decoration: none;
-    font-family: "Teko", sans-serif;
-}
-.left a:hover{
-    font-size: 25px;
-}
-.right a:link{
-    font-size: 20px;
-    text-decoration: none;
-    font-family: "Teko", sans-serif;
-}
-.right a:hover{
-    font-size: 25px;
-}
 .indie-oswald-regular{
   font-family: "Oswald", sans-serif;
   font-weight: 400;
@@ -128,53 +68,7 @@ h2{
       h1 span::before {
         content: "phone-device";
       }
-      .left{
-        
-        flex-grow: 1;
-        flex-wrap: wrap;
-        width: 90%;
-        height: 150px;
-        border-radius: 25px;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-        padding: 30px 30px 30px 30px;
-    
-    
-    }
-    
-    .right{
-        
-        flex-grow: 1;
-        flex-wrap: wrap;
-        width: 90%;
-        height: 150px;
-        border-radius: 25px;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-        padding: 30px 30px 30px 30px;
-    
-    }
-    nav li{
-        float: right;
-        list-style-type: none;
-        padding: 0px 20px 0px 0px;
-        margin: 0px;
-    }
-    nav ul{
-        list-style-type: none;
-        overflow: hidden;
-        margin: none;
-        padding: 20px 20px 20px 20px;
-    }
-    nav{
-        clear: both;
-        height: 50px;
-    }
-    nav li a:hover {
-        height: 50px;
-    }
+      
 footer{
 
     clear: both;
@@ -187,22 +81,6 @@ header > h1{
 }
 
 
-.left a:link{
-    font-size: 20px;
-    text-decoration: none;
-    font-family: "Teko", sans-serif;
-}
-.left a:hover{
-    font-size: 25px;
-}
-.right a:link{
-    font-size: 20px;
-    text-decoration: none;
-    font-family: "Teko", sans-serif;
-}
-.right a:hover{
-    font-size: 25px;
-}
 .indie-oswald-regular{
   font-family: "Oswald", sans-serif;
   font-weight: 400;
@@ -227,55 +105,7 @@ h2{
         flex-direction: column;
       }
 }
-    .left{
-        
-        flex-grow: 1;
-        flex-wrap: wrap;
-        width: 300px;
-        height: 150px;
-        background-color: white;
-        border-radius: 25px;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-        padding: 30px 30px 30px 30px;
     
-    
-    }
-    
-    .right{
-        
-        flex-grow: 1;
-        flex-wrap: wrap;
-        width: 300px;
-        height: 150px;
-        background-color: white;
-        border-radius: 25px;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-        padding: 30px 30px 30px 30px;
-    
-    }
-    nav li{
-        float: right;
-        list-style-type: none;
-        padding: 0px 20px 0px 0px;
-        margin: 0px;
-    }
-    nav ul{
-        list-style-type: none;
-        overflow: hidden;
-        margin: none;
-        padding: 20px 20px 20px 20px;
-    }
-    nav{
-        clear: both;
-        height: 50px;
-    }
-    nav li a:hover {
-        height: 50px;
-    }
 footer{
     clear: both;
 
@@ -284,26 +114,6 @@ header > h1{
     text-align: center;
     color:black;
     font-size: xx-large;
-}
-
-
-.left a:link{
-    color:#004aad;
-    font-size: 20px;
-    text-decoration: none;
-    font-family: "Teko", sans-serif;
-}
-.left a:hover{
-    font-size: 25px;
-}
-.right a:link{
-    color:#004aad;
-    font-size: 20px;
-    text-decoration: none;
-    font-family: "Teko", sans-serif;
-}
-.right a:hover{
-    font-size: 25px;
 }
 
 .indie-oswald-regular{
