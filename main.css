@@ -191,3 +191,9 @@ ul {
   li a:hover {
     background-color: #111;
   }
+
+  h2{
+    text-align: center;
+    color: black;
+    opacity: 100%;
+  }
