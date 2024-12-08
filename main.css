@@ -197,3 +197,10 @@ ul {
     color: black;
     opacity: 100%;
   }
+  h1{
+    font-family: "Oswald", sans-serif;
+    font-size: large;
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+}
