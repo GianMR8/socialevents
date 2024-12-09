@@ -5,16 +5,16 @@
 }
     .flex-container {
         display: flex;
-        background: url("processed-75298E44-D292-4478-8E87-03B73E9A7105.jpeg") no-repeat fixed top right;
+        background: skyblue no-repeat fixed top right;
         background-size: 1000px;
         flex-direction: row;
-        opacity: 80%;
+        opacity: 100%;
     }
 
     body{
-        background: url("processed-75298E44-D292-4478-8E87-03B73E9A7105.jpeg");
+        background: skyblue;
         background-size: 1000px;
-        opacity: 80%;
+        opacity: 100%;
     }
     #container{
         margin: 0 auto;
@@ -194,8 +194,12 @@ ul {
 
   h2{
     text-align: center;
+    font-family: "Oswald", sans-serif;
     color: black;
     opacity: 100%;
+    font-size: large;
+    font-style: normal;
+
   }
   h1{
     font-family: "Oswald", sans-serif;
@@ -203,4 +207,11 @@ ul {
     font-style: normal;
     font-weight: 400;
     color: black;
+    opacity: 100%;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
